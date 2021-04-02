@@ -1,0 +1,45 @@
+//---------------------------------------------------------------------------
+
+#ifndef Unit2H
+#define Unit2H
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+#include <Vcl.Controls.hpp>
+#include <Vcl.StdCtrls.hpp>
+#include <Vcl.Forms.hpp>
+//---------------------------------------------------------------------------
+class TForm2 : public TForm
+{
+__published:	// IDE-managed Components
+	TGroupBox *GroupBox1;
+	TLabel *Label1;
+	TLabel *Label2;
+	TEdit *setSize;
+	TButton *genSet;
+	TLabel *Label3;
+	TButton *bruteAlg;
+	TButton *optimAlg;
+	TGroupBox *GroupBox2;
+	TLabel *Label9;
+	TEdit *enterX;
+	TButton *setX;
+	TScrollBox *ScrollBox1;
+	TLabel *Label6;
+	TLabel *timeTaken;
+	TLabel *Label8;
+	TLabel *setPairs1;
+	TLabel *setPairs2;
+	TLabel *timeTaken2;
+	TScrollBox *ScrollBox2;
+	TLabel *displaySet;
+	void __fastcall genSetClick(TObject *Sender);
+	void __fastcall setXClick(TObject *Sender);
+	void __fastcall bruteAlgClick(TObject *Sender);
+private:	// User declarations
+public:		// User declarations
+	__fastcall TForm2(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TForm2 *Form2;
+//---------------------------------------------------------------------------
+#endif

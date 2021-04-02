@@ -1,0 +1,278 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  VertScrollBar.Color = clSilver
+  VertScrollBar.ParentColor = False
+  Caption = 'Set Calculator'
+  ClientHeight = 584
+  ClientWidth = 876
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object GroupBox1: TGroupBox
+    AlignWithMargins = True
+    Left = 3
+    Top = 3
+    Width = 870
+    Height = 578
+    Align = alClient
+    TabOrder = 0
+    ExplicitLeft = -2
+    ExplicitTop = 27
+    object Label1: TLabel
+      AlignWithMargins = True
+      Left = 5
+      Top = 18
+      Width = 860
+      Height = 33
+      Align = alTop
+      Alignment = taCenter
+      Caption = 'Set Calculator'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -24
+      Font.Name = 'Montserrat'
+      Font.Style = []
+      ParentFont = False
+      ExplicitLeft = 376
+      ExplicitTop = 40
+      ExplicitWidth = 168
+    end
+    object Label2: TLabel
+      Left = 96
+      Top = 120
+      Width = 151
+      Height = 22
+      Caption = 'Enter  the Set Size:'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Montserrat'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label3: TLabel
+      Left = 336
+      Top = 328
+      Width = 170
+      Height = 22
+      Caption = 'Choose an Algorithm'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Montserrat'
+      Font.Style = []
+      ParentFont = False
+    end
+    object displaySet: TLabel
+      Left = 88
+      Top = 184
+      Width = 115
+      Height = 19
+      Alignment = taCenter
+      Caption = '--> there is no set'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = cl3DDkShadow
+      Font.Height = -16
+      Font.Name = 'Calibri'
+      Font.Style = []
+      ParentFont = False
+    end
+    object setPairs1: TLabel
+      Left = 256
+      Top = 496
+      Width = 90
+      Height = 19
+      Alignment = taCenter
+      Caption = 'N/A '
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = cl3DDkShadow
+      Font.Height = -16
+      Font.Name = 'Calibri'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label5: TLabel
+      Left = 488
+      Top = 432
+      Width = 146
+      Height = 19
+      Caption = 'there is no set created'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = cl3DDkShadow
+      Font.Height = -16
+      Font.Name = 'Calibri'
+      Font.Style = []
+      ParentFont = False
+    end
+    object timeTaken: TLabel
+      Left = 288
+      Top = 432
+      Width = 24
+      Height = 19
+      Caption = 'N/A'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = cl3DDkShadow
+      Font.Height = -16
+      Font.Name = 'Calibri'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label7: TLabel
+      Left = 488
+      Top = 496
+      Width = 146
+      Height = 19
+      Caption = 'there is no set created'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = cl3DDkShadow
+      Font.Height = -16
+      Font.Name = 'Calibri'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label8: TLabel
+      Left = 96
+      Top = 494
+      Width = 115
+      Height = 21
+      Caption = 'Matching Pairs:'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -15
+      Font.Name = 'Montserrat'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label9: TLabel
+      Left = 96
+      Top = 240
+      Width = 131
+      Height = 22
+      Caption = 'Enter  Integer X:'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Montserrat'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label4: TLabel
+      Left = 96
+      Top = 430
+      Width = 119
+      Height = 21
+      Caption = 'Time taken ('#181's):'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -15
+      Font.Name = 'Montserrat'
+      Font.Style = []
+      ParentFont = False
+    end
+    object setSize: TEdit
+      Left = 368
+      Top = 118
+      Width = 121
+      Height = 29
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -15
+      Font.Name = 'Montserrat Light'
+      Font.Style = []
+      NumbersOnly = True
+      ParentFont = False
+      TabOrder = 0
+    end
+    object genSet: TButton
+      Left = 600
+      Top = 122
+      Width = 185
+      Height = 25
+      Caption = 'Generate Random Set'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Montserrat'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 1
+      OnClick = genSetClick
+    end
+    object bruteAlg: TButton
+      Left = 200
+      Top = 375
+      Width = 121
+      Height = 25
+      Caption = 'Brute Force'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Montserrat'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 2
+      OnClick = bruteAlgClick
+    end
+    object optimAlg: TButton
+      Left = 512
+      Top = 375
+      Width = 113
+      Height = 25
+      Caption = 'Optimized'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Montserrat'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 3
+    end
+    object GroupBox2: TGroupBox
+      Left = 48
+      Top = 320
+      Width = 769
+      Height = 2
+      Caption = 'GroupBox2'
+      Color = clGray
+      ParentBackground = False
+      ParentColor = False
+      TabOrder = 4
+    end
+    object enterX: TEdit
+      Left = 368
+      Top = 238
+      Width = 121
+      Height = 29
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -15
+      Font.Name = 'Montserrat Light'
+      Font.Style = []
+      NumbersOnly = True
+      ParentFont = False
+      TabOrder = 5
+    end
+    object setX: TButton
+      Left = 648
+      Top = 242
+      Width = 89
+      Height = 25
+      Caption = 'Set X'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Montserrat'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 6
+      OnClick = setXClick
+    end
+  end
+end

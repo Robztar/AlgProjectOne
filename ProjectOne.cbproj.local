@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021-03-29 15:42:26.000.160,=C:\Users\ADMIN\Documents\Embarcadero\Studio\Projects\Project2PCH1.h</Transaction>
+    <Transaction>2021-03-29 15:42:26.000.987,=C:\Users\ADMIN\Documents\Embarcadero\Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>2021-03-29 15:43:00.000.155,C:\Users\ADMIN\Documents\Embarcadero\Studio\Projects\Project2.cbproj=C:\Users\ADMIN\Documents\Embarcadero\Studio\Projects\ProjectOne.cbproj</Transaction>
+    <Transaction>2021-03-29 15:43:00.000.149,C:\Users\ADMIN\Documents\Embarcadero\Studio\Projects\Project2PCH1.h=C:\Users\ADMIN\Documents\Embarcadero\Studio\Projects\ProjectOnePCH1.h</Transaction>
+    <Transaction>2021-03-29 19:12:38.000.349,C:\Users\ADMIN\Documents\Embarcadero\Studio\Projects\Unit2.dfm=C:\Users\ADMIN\Documents\Embarcadero\Studio\Projects\AlgProjectOne\Unit2.dfm</Transaction>
+    <Transaction>2021-03-29 19:12:38.000.349,C:\Users\ADMIN\Documents\Embarcadero\Studio\Projects\Unit2.cpp=C:\Users\ADMIN\Documents\Embarcadero\Studio\Projects\AlgProjectOne\Unit2.cpp</Transaction>
+    <Transaction>2021-03-29 19:12:38.000.349,C:\Users\ADMIN\Documents\Embarcadero\Studio\Projects\Unit2.h=C:\Users\ADMIN\Documents\Embarcadero\Studio\Projects\AlgProjectOne\Unit2.h</Transaction>
+    <Transaction>2021-03-29 19:12:45.000.403,C:\Users\ADMIN\Documents\Embarcadero\Studio\Projects\ProjectOnePCH1.h=C:\Users\ADMIN\Documents\Embarcadero\Studio\Projects\AlgProjectOne\ProjectOnePCH1.h</Transaction>
+    <Transaction>2021-03-29 19:12:47.000.859,C:\Users\ADMIN\Documents\Embarcadero\Studio\Projects\ProjectOne.cbproj=C:\Users\ADMIN\Documents\Embarcadero\Studio\Projects\AlgProjectOne\ProjectOne.cbproj</Transaction>
+    <Transaction>2021-03-31 22:32:18.000.766,C:\Users\ADMIN\Documents\Embarcadero\Studio\Projects\AlgProjectOne\Unit2.cpp=C:\Users\ADMIN\Documents\Embarcadero\Studio\Projects\AlgProjectOne\setCalculator.cpp</Transaction>
+    <Transaction>2021-03-31 22:32:18.000.766,C:\Users\ADMIN\Documents\Embarcadero\Studio\Projects\AlgProjectOne\Unit2.dfm=C:\Users\ADMIN\Documents\Embarcadero\Studio\Projects\AlgProjectOne\setCalculator.dfm</Transaction>
+    <Transaction>2021-03-31 22:32:18.000.766,C:\Users\ADMIN\Documents\Embarcadero\Studio\Projects\AlgProjectOne\Unit2.h=C:\Users\ADMIN\Documents\Embarcadero\Studio\Projects\AlgProjectOne\setCalculator.h</Transaction>
+  </Transactions>
+</BorlandProject>

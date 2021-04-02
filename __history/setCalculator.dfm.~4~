@@ -1,0 +1,437 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  VertScrollBar.Color = clSilver
+  VertScrollBar.ParentColor = False
+  Align = alClient
+  AlphaBlend = True
+  AutoSize = True
+  Caption = 'Set Calculator'
+  ClientHeight = 654
+  ClientWidth = 876
+  Color = clBtnFace
+  TransparentColor = True
+  TransparentColorValue = clSilver
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object GroupBox1: TGroupBox
+    AlignWithMargins = True
+    Left = 3
+    Top = 3
+    Width = 870
+    Height = 648
+    Align = alClient
+    TabOrder = 0
+    ExplicitHeight = 685
+    object Label1: TLabel
+      AlignWithMargins = True
+      Left = 5
+      Top = 18
+      Width = 860
+      Height = 33
+      Align = alTop
+      Alignment = taCenter
+      Caption = 'Set Calculator'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -24
+      Font.Name = 'Montserrat'
+      Font.Style = []
+      ParentFont = False
+      ExplicitWidth = 168
+    end
+    object Label3: TLabel
+      Left = 2
+      Top = 316
+      Width = 866
+      Height = 31
+      Align = alTop
+      Alignment = taCenter
+      Caption = 'Choose an Algorithm'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Montserrat SemiBold'
+      Font.Style = [fsBold]
+      ParentFont = False
+      Layout = tlCenter
+    end
+    object ScrollBox1: TScrollBox
+      Left = 2
+      Top = 420
+      Width = 866
+      Height = 193
+      Align = alTop
+      TabOrder = 1
+      ExplicitLeft = 3
+      ExplicitTop = 432
+      object Label8: TLabel
+        AlignWithMargins = True
+        Left = 20
+        Top = 20
+        Width = 115
+        Height = 69
+        Margins.Left = 20
+        Margins.Top = 20
+        Margins.Bottom = 100
+        Align = alLeft
+        Caption = 'Matching Pairs:'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -15
+        Font.Name = 'Montserrat'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 49
+        ExplicitTop = 16
+        ExplicitHeight = 21
+      end
+      object setPairs1: TLabel
+        AlignWithMargins = True
+        Left = 388
+        Top = 20
+        Width = -176
+        Height = 166
+        Margins.Left = 250
+        Margins.Top = 20
+        Margins.Right = 650
+        Align = alClient
+        Alignment = taCenter
+        Caption = 'N/A '
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = cl3DDkShadow
+        Font.Height = -16
+        Font.Name = 'Calibri'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 271
+        ExplicitTop = 17
+        ExplicitWidth = 28
+        ExplicitHeight = 19
+      end
+      object setPairs2: TLabel
+        AlignWithMargins = True
+        Left = 638
+        Top = 20
+        Width = -176
+        Height = 166
+        Margins.Left = 500
+        Margins.Top = 20
+        Margins.Right = 400
+        Align = alClient
+        Alignment = taCenter
+        Caption = 'N/A'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = cl3DDkShadow
+        Font.Height = -16
+        Font.Name = 'Calibri'
+        Font.Style = []
+        ParentFont = False
+        ExplicitLeft = 542
+        ExplicitTop = 18
+        ExplicitWidth = 24
+        ExplicitHeight = 19
+      end
+    end
+    object GroupBox2: TGroupBox
+      Left = 2
+      Top = 314
+      Width = 866
+      Height = 2
+      Align = alTop
+      Caption = 'GroupBox2'
+      Color = clTeal
+      ParentBackground = False
+      ParentColor = False
+      TabOrder = 0
+      ExplicitLeft = 48
+      ExplicitTop = 320
+      ExplicitWidth = 769
+    end
+    object ScrollBox2: TScrollBox
+      Left = 2
+      Top = 147
+      Width = 866
+      Height = 64
+      Align = alTop
+      TabOrder = 2
+      ExplicitLeft = 96
+      ExplicitTop = 153
+      ExplicitWidth = 689
+      object displaySet: TLabel
+        Left = 49
+        Top = 19
+        Width = 115
+        Height = 19
+        Caption = '--> there is no set'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = cl3DDkShadow
+        Font.Height = -16
+        Font.Name = 'Calibri'
+        Font.Style = []
+        ParentFont = False
+      end
+    end
+    object Panel1: TPanel
+      Left = 2
+      Top = 54
+      Width = 866
+      Height = 93
+      Align = alTop
+      TabOrder = 3
+      object Label2: TLabel
+        AlignWithMargins = True
+        Left = 31
+        Top = 31
+        Width = 151
+        Height = 31
+        Margins.Left = 30
+        Margins.Top = 30
+        Margins.Bottom = 30
+        Align = alLeft
+        Alignment = taCenter
+        Anchors = [akLeft]
+        Caption = 'Enter  the Set Size:'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Montserrat'
+        Font.Style = []
+        ParentFont = False
+        Layout = tlCenter
+        ExplicitLeft = 1
+        ExplicitTop = 1
+        ExplicitHeight = 22
+      end
+      object setSize: TEdit
+        AlignWithMargins = True
+        Left = 245
+        Top = 31
+        Width = 342
+        Height = 31
+        Margins.Left = 60
+        Margins.Top = 30
+        Margins.Right = 60
+        Margins.Bottom = 30
+        Align = alClient
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -15
+        Font.Name = 'Montserrat Light'
+        Font.Style = []
+        NumbersOnly = True
+        ParentFont = False
+        TabOrder = 0
+        ExplicitLeft = 368
+        ExplicitTop = 33
+        ExplicitWidth = 121
+        ExplicitHeight = 29
+      end
+      object genSet: TButton
+        AlignWithMargins = True
+        Left = 650
+        Top = 31
+        Width = 185
+        Height = 31
+        Margins.Top = 30
+        Margins.Right = 30
+        Margins.Bottom = 30
+        Align = alRight
+        BiDiMode = bdLeftToRight
+        Caption = 'Generate Random Set'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'Montserrat'
+        Font.Style = []
+        ParentBiDiMode = False
+        ParentFont = False
+        TabOrder = 1
+        OnClick = genSetClick
+        ExplicitLeft = 613
+        ExplicitTop = 33
+        ExplicitHeight = 29
+      end
+    end
+    object Panel2: TPanel
+      Left = 2
+      Top = 211
+      Width = 866
+      Height = 103
+      Align = alTop
+      TabOrder = 4
+      object Label9: TLabel
+        AlignWithMargins = True
+        Left = 31
+        Top = 31
+        Width = 131
+        Height = 31
+        Margins.Left = 30
+        Margins.Top = 30
+        Margins.Bottom = 40
+        Align = alLeft
+        Caption = 'Enter  Integer X:'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Montserrat'
+        Font.Style = []
+        ParentFont = False
+        Layout = tlCenter
+        ExplicitLeft = 96
+        ExplicitTop = 25
+        ExplicitHeight = 22
+      end
+      object displayX: TLabel
+        AlignWithMargins = True
+        Left = 168
+        Top = 71
+        Width = 495
+        Height = 28
+        Margins.Top = 70
+        Align = alClient
+        Alignment = taCenter
+        Caption = '--> x = N/A'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = cl3DDkShadow
+        Font.Height = -16
+        Font.Name = 'Calibri'
+        Font.Style = []
+        ParentFont = False
+        Layout = tlCenter
+        ExplicitLeft = 383
+        ExplicitTop = 68
+        ExplicitWidth = 69
+        ExplicitHeight = 19
+      end
+      object enterX: TEdit
+        AlignWithMargins = True
+        Left = 225
+        Top = 31
+        Width = 381
+        Height = 31
+        Margins.Left = 60
+        Margins.Top = 30
+        Margins.Right = 60
+        Margins.Bottom = 40
+        Align = alClient
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -15
+        Font.Name = 'Montserrat Light'
+        Font.Style = []
+        NumbersOnly = True
+        ParentFont = False
+        TabOrder = 0
+        ExplicitLeft = 368
+        ExplicitTop = 18
+        ExplicitWidth = 121
+        ExplicitHeight = 29
+      end
+      object setX: TButton
+        AlignWithMargins = True
+        Left = 696
+        Top = 31
+        Width = 89
+        Height = 31
+        Margins.Left = 30
+        Margins.Top = 30
+        Margins.Right = 80
+        Margins.Bottom = 40
+        Align = alRight
+        Caption = 'Set X'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'Montserrat'
+        Font.Style = []
+        ParentFont = False
+        TabOrder = 1
+        OnClick = setXClick
+        ExplicitLeft = 648
+        ExplicitTop = 22
+        ExplicitHeight = 25
+      end
+    end
+    object FlowPanel1: TFlowPanel
+      Left = 2
+      Top = 347
+      Width = 866
+      Height = 73
+      Align = alTop
+      ShowCaption = False
+      TabOrder = 5
+      ExplicitLeft = 3
+      ExplicitTop = 353
+      object bruteAlg: TButton
+        AlignWithMargins = True
+        Left = 251
+        Top = 21
+        Width = 121
+        Height = 25
+        Margins.Left = 250
+        Margins.Top = 20
+        Margins.Right = 120
+        Margins.Bottom = 25
+        Align = alClient
+        Caption = 'Brute Force'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'Montserrat'
+        Font.Style = []
+        ParentFont = False
+        TabOrder = 0
+        OnClick = bruteAlgClick
+      end
+      object optimAlg: TButton
+        AlignWithMargins = True
+        Left = 495
+        Top = 21
+        Width = 113
+        Height = 25
+        Margins.Top = 20
+        Margins.Bottom = 25
+        Align = alClient
+        Caption = 'Optimized'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'Montserrat'
+        Font.Style = []
+        ParentFont = False
+        TabOrder = 1
+        OnClick = optimAlgClick
+      end
+    end
+    object GridPanel1: TGridPanel
+      Left = 352
+      Top = 614
+      Width = 185
+      Height = 41
+      Caption = 'GridPanel1'
+      ColumnCollection = <
+        item
+          Value = 50.000000000000000000
+        end
+        item
+          Value = 50.000000000000000000
+        end>
+      ControlCollection = <>
+      RowCollection = <
+        item
+          Value = 50.000000000000000000
+        end
+        item
+          Value = 50.000000000000000000
+        end>
+      TabOrder = 6
+    end
+  end
+end
